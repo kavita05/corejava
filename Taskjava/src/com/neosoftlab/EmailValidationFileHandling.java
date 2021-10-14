@@ -1,4 +1,4 @@
-package com.kavita;
+package com.neosoftlab;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
