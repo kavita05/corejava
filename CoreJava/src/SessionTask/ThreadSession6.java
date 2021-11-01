@@ -1,7 +1,21 @@
+/*.  Multi threading
+Create a class for Thread1 to execute "Java is nice" in reverse order with pause of 2 seconds. --> ecin si avaJ
+Create a class Thread2 to execute "Java is nice" with alternate characters with pause of 1 second.
+--> J v  i  i e
+
+join -->  join() method which allows one thread to wait until another thread completes its execution.
+t1.start(); //t1 is executing
+t1.join();
+t2.start();
+t2.join();*/
+
+
+
+
 package SessionTask;
 import java.util.Scanner;
 
-public class ThreadSession extends Thread{
+public class ThreadSession6 extends Thread{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

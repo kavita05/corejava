@@ -62,13 +62,7 @@ public class BankApplication {
 			
 			String tempNo = sc.nextLine();
 			
-			/*
-			 * while(!tempNo.matches("a") ||!tempNo.matches("b") ) {
-			 * System.out.println("Invalid Choice! Try again : "); tempNo = sc.nextLine(); }
-			 * 
-			 * if (tempNo == "a") { type = "SAVING"; } else if (tempNo == "b") { type =
-			 * "BUSINESS"; }
-			 */
+		
 
 			System.out.print("Set Username :");
 			String uname = sc.next();
@@ -82,14 +76,7 @@ public class BankApplication {
 			}
 			String pwd1 = pwd;
 
-			/*
-			 * if(pwd.matches(
-			 * "^(?=.[a-z])(?=.[A-Z])(?=.\\d)(?=.[#$@!%&?])[A-Za-z\\d#$@!%&?]{8,30}$")
-			 * ) { System.out.println("good password is strong");
-			 * 
-			 * }else { System.out.print("Invalid Password");
-			 * System.out.print("Enter Password again :"); String pwd1=sc.next(); }
-			 */
+			
 
 			System.out.print("Enter Initial Deposit :");
 			int dep = sc.nextInt();

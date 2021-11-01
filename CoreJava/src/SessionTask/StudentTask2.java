@@ -1,6 +1,15 @@
+/*2.Class, Object and Constructor
+Create a class as Student Attributes --> stid, name,course,marks
+param constructor to assign values Student(stid, name,course,marks)
+method as show() --> Display all details
+
+Ask user to enter 5 students details and hold these objects in an array.
+Display students having more than 60 marks from BCA course.*/
+
+
 package SessionTask;
 import java.util.Scanner;
-public class StudentTask {
+public class StudentTask2 {
 
 	public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
@@ -29,11 +38,11 @@ Scanner sc = new Scanner(System.in);
 			
 		
 		
-		Student obj1 = new Student(01, "arif", "JAVA", 90);
-		Student obj2 = new Student(03, "pintu", "ANDROID", 40);
-		Student obj3 = new Student(05, "pankaj", "BCA", 30);
-		Student obj4 = new Student(07, "messi", "PYTHON", 70);
-		Student obj5 = new Student(02, "ronaldo", "BCA", 80);  
+		Student obj1 = new Student(01, "kavita", "JAVA", 90);
+		Student obj2 = new Student(03, "saba", "ANDROID", 40);
+		Student obj3 = new Student(05, "neha", "BCA", 30);
+		Student obj4 = new Student(07, "krasti", "PYTHON", 70);
+		Student obj5 = new Student(02, "aaru", "BCA", 80);  
 		
 		
 		

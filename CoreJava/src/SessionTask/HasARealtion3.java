@@ -1,6 +1,17 @@
+/*3. 
+Has-A Relation:
+Create a class as Employee (Attributes --> eid, ename,esal,project)
+Create a class as Project (Attributes --> pid, pname,plocation)
+Crate two employees and assign them a Project as "Mobile App for Project management"
+create two more employees and assign them a Project as "E-Commerce Web App"
+
+Out of these 4 display employees having salary > 25000 and working for Web application.*/
+
+
+
 package SessionTask;
 
-public class HasARealtion {
+public class HasARealtion3 {
 
 	public static void main(String[] args) {
 		Employee emp1 = new Employee(101, "alax", 1000, "Mobile app");
